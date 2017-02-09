@@ -1,0 +1,36 @@
+div.header{
+	height:200px;
+	width :100%;
+	padding : 0px;
+	background-color: lightblue;
+}
+div.content{
+	width:80%;
+}
+div.menu{
+	 line-height: 22px;
+    margin-left: 0px;
+    margin-top: 2px;
+    float: right;
+    background: lightgray;
+    width: 20%;
+    word-spacing: 5px;
+    color: #325c9c;
+}
+div.footer{
+	height:200px;
+	width :100%;
+	padding : 0px;
+}
+div.logoImg{
+	margin-bottom: 2px;
+    width: 200px;
+    height: 196px;
+    display: block;
+    float: left;
+}
+.logo{
+	    height: 200px;
+    	width: 200px;
+    }
+div.imgHolder{float: left;}

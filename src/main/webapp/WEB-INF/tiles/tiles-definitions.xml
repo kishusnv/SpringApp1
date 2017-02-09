@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions> 
+    <definition name="base.definition"
+          template="/WEB-INF/jsp/common/layout.jsp">
+      <put-attribute name="title" value="" />
+      <put-attribute name="header" value="/WEB-INF/jsp/common/header.jsp" />
+      <put-attribute name="menu" value="/WEB-INF/jsp/common/menu.jsp" />
+      <put-attribute name="content" value="" />
+      <put-attribute name="footer" value="/WEB-INF/jsp/common/footer.jsp" />
+    </definition>
+    <definition name="home" extends="base.definition">
+      <put-attribute name="title" value="Home" />
+      <put-attribute name="content" value="/WEB-INF/jsp/sort/home.jsp" />
+    </definition>
+      <definition name="sortstatus" extends="base.definition">
+      <put-attribute name="title" value="StatusSelectGame" />
+      <put-attribute name="content" value="/WEB-INF/jsp/sort/statusSelection.jsp" />
+    </definition>
+</tiles-definitions>
