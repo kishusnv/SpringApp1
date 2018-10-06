@@ -21,5 +21,5 @@ UI functionality is implemented in jQuery .
 
    This is a POC application where the idea is to add score board for the users who completed  different games or modules to show up some competetion.
 
-The application structure is built and implementations are to be enhanced .
+The application structure is built and implementation is to be enhanced .
 
